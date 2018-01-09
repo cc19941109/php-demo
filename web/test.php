@@ -5,8 +5,8 @@
 <?php
 
 require_once(__DIR__ . "/action.php");
-define("APPID", "dingoazrfhph83jpvlqdnu");
-define("APPSECRET", "0L7-gNF8s7IeCUw57VJiSPUiw5YjqMZRNeNwqtWxwdtqxERNP5zozy4VqXzHCKET");
+define("APPID", "dingoaxxxxxxxxxx");
+define("APPSECRET", "0L7-xxxxxxxxxxxxx");
 
 $origin_url = "https://oapi.dingtalk.com/sns/gettoken";
 $access_token_url = $origin_url . "?appid=" . APPID . "&appsecret=" . APPSECRET;
@@ -80,7 +80,7 @@ if (isset($_GET["state"])) {
 
 echo "<br> -- -- - -- -- - -- - -- - --- -" . "<br>";
 
-echo "<a href=\"https://oapi.dingtalk.com/connect/qrconnect?appid=dingoazrfhph83jpvlqdnu&response_type=code&scope=snsapi_login&state=STATE&redirect_uri=http:%2F%2F7xmtvb.natappfree.cc%2Ftest.php\">dingding</a>"
+echo "<a href=\"https://oapi.dingtalk.com/connect/qrconnect?appid=xxxxxxxxx&response_type=code&scope=snsapi_login&state=STATE&redirect_uri=http:%2F%2F7xmtvb.natappfree.cc%2Ftest.php\">dingding</a>"
 
 ?>
 
